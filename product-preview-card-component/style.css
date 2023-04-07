@@ -19,13 +19,18 @@
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: var(--background);
     font-family: 'Montserrat', sans-serif;
 }
 
 .card {
     background-color: var(--card);
-    margin: 10px;
     border-radius: 10px;
     width: 350px;
 }
@@ -39,23 +44,27 @@ body {
     margin: 10px;
 }
 
-.type {
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    margin: inherit;
-}
-
 .description h1 {
     font-family: 'Fraunces', sans-serif;
     font-weight: 700;
+    font-size: 2em;
     margin: inherit;
 }
 
 .description p {
     color: #6c7289;
     line-height: 1.5em;
-    margin: inherit;
+    margin: 10px;
+    /* font-size: small; */
 }
+
+.type {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 30px 10px 2px !important;
+    font-size: 0.8em;
+}
+
 
 div {
     display: flex;
