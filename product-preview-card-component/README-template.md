@@ -46,6 +46,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+<!--
+  font do google
+  imagem não passar do tamanho
+  variável css
+-->
+
 ### Built with
 
 - Semantic HTML5 markup
