@@ -13,7 +13,7 @@
 }
 
 * {
-    /* margin: 0; */
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -27,6 +27,7 @@ body {
     background-color: var(--card);
     margin: 10px;
     border-radius: 10px;
+    width: 350px;
 }
 
 .product {
@@ -41,20 +42,24 @@ body {
 .type {
     text-transform: uppercase;
     letter-spacing: 5px;
+    margin: inherit;
 }
 
 .description h1 {
     font-family: 'Fraunces', sans-serif;
     font-weight: 700;
+    margin: inherit;
 }
 
 .description p {
     color: #6c7289;
     line-height: 1.5em;
+    margin: inherit;
 }
 
 div {
     display: flex;
+    margin: inherit;
 }
 
 .current-price {
@@ -64,16 +69,25 @@ div {
 
 .price {
     text-decoration: line-through;
-    vertical-align: bottom;
 }
 
-.description button {
+.add-to-cart {
     background-color: #3c8067;
     color: white;
     padding: 10px;
-    width: 150px;
+    width: 300px;
     border: 0px;
     border-radius: 5px;
+    margin: inherit;
+    font-weight: 700;
+}
+
+.add-to-cart:hover {
+    background-color: hsl(158, 36%, 26%);
+}
+
+.add-to-cart img {
+    margin-right: inherit;
 }
 
 
