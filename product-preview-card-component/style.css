@@ -42,20 +42,21 @@ body {
 
 .description {
     margin: 10px;
+    width: 300px;
 }
 
 .description h1 {
     font-family: 'Fraunces', sans-serif;
     font-weight: 700;
-    font-size: 2em;
-    margin: inherit;
+    font-size: 1.5em;
+    /* margin: 10px; */
 }
 
 .description p {
     color: #6c7289;
     line-height: 1.5em;
     margin: 10px;
-    /* font-size: small; */
+    font-size: 14px;
 }
 
 .type {
@@ -68,39 +69,45 @@ body {
 
 div {
     display: flex;
-    margin: inherit;
+    margin: 10px;
 }
 
 .current-price {
     color: #3c8067;
     font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    margin: 10px;
 }
 
 .price {
     text-decoration: line-through;
+    height: min-content;
+    margin-top: 20px !important;
 }
 
 .add-to-cart {
     background-color: #3c8067;
     color: white;
-    padding: 10px;
+    padding: 15px;
     width: 300px;
     border: 0px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: inherit;
     font-weight: 700;
 }
 
-.add-to-cart:hover {
+.add-to-cart:hover, .add-to-cart:active {
     background-color: hsl(158, 36%, 26%);
+    cursor: pointer;
 }
 
 .add-to-cart img {
-    margin-right: inherit;
+    margin-right: 7px;
 }
 
 
-.attribution {
+/* .attribution {
     position: absolute;
     bottom: 0;
 
@@ -110,4 +117,4 @@ div {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-}
+} */
