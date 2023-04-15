@@ -1,15 +1,23 @@
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+@font-face {
+    font-family: Fraunces;
+    src: url();
+}
+
 /*
     Fraunces 700
     Montserrat 500 700
 */
 
 :root {
-    --background: hsl(32, 37%, 92%);
-    --card: hsl(0, 0%, 100%);
-    --font1: hsl(212, 21%, 14%);
-    --font2: hsl(228, 12%, 48%);
-    --prominence: hsl(158, 36%, 37%);
+    --background: #f2ebe3;
+    --card: #ffffff;
+    --font1: #1c232b;
+    --font2: #6c7289;
+    --prominence: #3c8067;
 }
 
 * {
@@ -49,11 +57,11 @@ body {
     font-family: 'Fraunces', sans-serif;
     font-weight: 700;
     font-size: 1.5em;
-    /* margin: 10px; */
+    margin: 9px;
 }
 
 .description p {
-    color: #6c7289;
+    color: var(--font2);
     line-height: 1.5em;
     margin: 10px;
     font-size: 14px;
@@ -73,7 +81,7 @@ div {
 }
 
 .current-price {
-    color: #3c8067;
+    color: var(--prominence);
     font-family: 'Fraunces', sans-serif;
     font-weight: 700;
     font-size: xx-large;
@@ -87,7 +95,7 @@ div {
 }
 
 .add-to-cart {
-    background-color: #3c8067;
+    background-color: var(--prominence);
     color: white;
     padding: 15px;
     width: 300px;
@@ -98,7 +106,7 @@ div {
 }
 
 .add-to-cart:hover, .add-to-cart:active {
-    background-color: hsl(158, 36%, 26%);
+    background-color: #2a5a49;
     cursor: pointer;
 }
 
