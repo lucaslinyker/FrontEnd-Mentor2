@@ -9,6 +9,7 @@ The designs were created to the following widths:
 
 ## Attribution
 
+### CSS
 .attribution {
     position: absolute;
     bottom: 0;
@@ -20,6 +21,12 @@ The designs were created to the following widths:
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+### HTML
+ <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="github.com/lucaslinyker">Lucas Linyker de Souza Andreotti</a>.
+</footer>
 
 ## Colors
 

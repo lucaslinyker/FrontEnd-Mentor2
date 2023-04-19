@@ -78,7 +78,7 @@ div {
 .current-price {
     color: var(--color3);
     font-family: var(--font1);
-    font-size: xx-large;
+    font-size: 2em;
 }
 
 .price {
