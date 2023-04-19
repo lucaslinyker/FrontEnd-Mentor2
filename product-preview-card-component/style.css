@@ -51,7 +51,6 @@ section.perfume, .product {
     width: 295px;
     font-family: var(--font1);
     font-size: 2em;
-    line-break: anywhere;
 }
 
 .description p {
