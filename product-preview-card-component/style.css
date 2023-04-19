@@ -45,12 +45,6 @@ section.perfume, .product {
     border-radius: 10px 10px 0px 0px;
 }
 
-/* .product {
-    height: 240px;
-    width: 343px;
-    border-radius: 10px 10px 0px 0px;
-} */
-
 .description {
     padding: 25px;
     width: 343px;
@@ -92,9 +86,11 @@ div {
 }
 
 .price {
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
     text-decoration: line-through;
     height: min-content;
-    margin-top: 20px !important;
 }
 
 button.add-to-cart {
@@ -116,16 +112,3 @@ button.add-to-cart:hover, button.add-to-cart:active {
 button.add-to-cart img {
     margin-right: 7px;
 }
-
-
-/* .attribution {
-    position: absolute;
-    bottom: 0;
-
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-} */

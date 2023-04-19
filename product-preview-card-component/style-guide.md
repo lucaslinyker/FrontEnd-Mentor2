@@ -7,6 +7,20 @@ The designs were created to the following widths:
 - Mobile: 375px
 - Desktop: 1440px
 
+## Attribution
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 ## Colors
 
 ### Primary
