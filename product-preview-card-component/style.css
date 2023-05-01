@@ -110,5 +110,26 @@ button.add-to-cart img {
 }
 
 @media (min-width: 768px) {
+    main.card {
+        display: flex;
+        width: 600px;
+        height: 450px;
+    }
+
+    section.perfume, section img.product {
+        width: 300px;
+        height: 450px;
+        border-radius: 10px 0px 0px 10px;
+    }
     
+    section.description {
+        padding: 30px;
+        width: 235px;
+    }
+
+
+
+    button.add-to-cart {
+        width: 235px;
+    }
 }
