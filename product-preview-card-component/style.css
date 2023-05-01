@@ -86,7 +86,6 @@ div > p.price {
     top: 10px;
     margin-left: 20px;
     text-decoration: line-through;
-    height: min-content;
 }
 
 button.add-to-cart {
