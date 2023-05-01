@@ -35,7 +35,7 @@ main.card {
     background-color: var(--color0);
 }
 
-section.perfume, section > img.product {
+section.perfume, section img.product {
     height: 240px;
     width: 343px;
     border-radius: 10px 10px 0px 0px;
@@ -107,4 +107,8 @@ button.add-to-cart:hover, button.add-to-cart:active {
 
 button.add-to-cart img {
     margin-right: 7px;
+}
+
+@media (min-width: 768px) {
+    
 }
