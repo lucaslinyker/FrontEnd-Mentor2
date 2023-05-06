@@ -51,6 +51,7 @@ section.description h1 {
     width: 295px;
     font-family: var(--font1);
     font-size: 2em;
+    line-height: 1em;
 }
 
 section.description p {
@@ -59,14 +60,15 @@ section.description p {
     color: var(--color2);
 }
 
-section.description section.description > p.text {
-    margin-top: 15px;
-    line-height: 1.5em;
-}
-
 section.description > p.type {
     text-transform: uppercase;
     letter-spacing: 5px;
+    font-size: 12px;
+}
+
+section.description > p.text {
+    margin-top: 15px;
+    line-height: 1.5em;
 }
 
 section.description > div {
