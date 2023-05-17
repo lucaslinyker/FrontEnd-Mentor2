@@ -89,17 +89,12 @@ div > h2.current-price {
 }
 
 div > p.price {
-    /* position: relative;
-    top: 12px;
-    margin-left: 20px; */
-
-    /* margin: 0px auto; */
-    text-align: center;
-
-    text-decoration: line-through;
-    /* height: min-content; */
     width: 50%;
-    border: 1.5px solid rgb(128, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: line-through;
+    /* border: 1.5px solid rgb(128, 0, 0); */
 }
 
 button.add-to-cart {
