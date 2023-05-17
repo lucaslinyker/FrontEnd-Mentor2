@@ -75,26 +75,19 @@ section.description > div {
     display: flex;
     margin-top: 20px;
     width: 295px;
-
-    border: 1px solid red;
 }
 
 div > h2.current-price {
     color: var(--color3);
     font-family: var(--font1);
-    font-size: 2em;
-    border: 1px solid black;
-    width: 50%;
-    text-align: center;
+    font-size: 2em;    
 }
 
 div > p.price {
-    width: 50%;
     display: flex;
-    justify-content: center;
+    padding-left: 17px;
     align-items: center;
     text-decoration: line-through;
-    /* border: 1.5px solid rgb(128, 0, 0); */
 }
 
 button.add-to-cart {
