@@ -7,7 +7,7 @@
     --color3: #3c8067;
     --color4: #2a5a49;
     --color5: #1c232b;
-    
+
     --font0: 'Montserrat', sans-serif;
     --font1: 'Fraunces', serif;
 }
@@ -75,19 +75,31 @@ section.description > div {
     display: flex;
     margin-top: 20px;
     width: 295px;
+
+    border: 1px solid red;
 }
 
 div > h2.current-price {
     color: var(--color3);
     font-family: var(--font1);
     font-size: 2em;
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
 }
 
 div > p.price {
-    position: relative;
-    top: 10px;
-    margin-left: 20px;
+    /* position: relative;
+    top: 12px;
+    margin-left: 20px; */
+
+    /* margin: 0px auto; */
+    text-align: center;
+
     text-decoration: line-through;
+    /* height: min-content; */
+    width: 50%;
+    border: 1.5px solid rgb(128, 0, 0);
 }
 
 button.add-to-cart {
@@ -101,7 +113,8 @@ button.add-to-cart {
     font-weight: 700;
 }
 
-button.add-to-cart:hover, button.add-to-cart:active {
+button.add-to-cart:hover,
+button.add-to-cart:active {
     background-color: var(--color4);
     cursor: pointer;
 }
@@ -122,14 +135,16 @@ button.add-to-cart img {
         height: 450px;
         border-radius: 10px 0px 0px 10px;
     }
-    
+
     section.description {
         padding: 30px;
         width: 235px;
+        height: 385px;
     }
 
-
-
+    section.description h1,
+    section.description p,
+    section.description div,
     button.add-to-cart {
         width: 235px;
     }
