@@ -7,7 +7,7 @@
     --color3: #3c8067;
     --color4: #2a5a49;
     --color5: #1c232b;
-    
+
     --font0: 'Montserrat', sans-serif;
     --font1: 'Fraunces', serif;
 }
@@ -29,64 +29,65 @@ body {
     font-family: var(--font0);
 }
 
-.card {
+main.card {
     width: 343px;
     border-radius: 10px;
     background-color: var(--color0);
 }
 
-section.perfume, .product {
+section.perfume, section img.product {
     height: 240px;
     width: 343px;
     border-radius: 10px 10px 0px 0px;
 }
 
-.description {
+section.description {
     padding: 25px;
     width: 343px;
 }
 
-.description h1 {
+section.description h1 {
     margin-top: 10px;
     width: 295px;
     font-family: var(--font1);
     font-size: 2em;
+    line-height: 1em;
 }
 
-.description p {
+section.description p {
     width: 295px;
     font-size: 14px;
     color: var(--color2);
 }
 
-.description .text {
+section.description > p.type {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+
+section.description > p.text {
     margin-top: 15px;
     line-height: 1.5em;
 }
 
-.type {
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
-
-div {
+section.description > div {
     display: flex;
     margin-top: 20px;
     width: 295px;
 }
 
-.current-price {
+div > h2.current-price {
     color: var(--color3);
     font-family: var(--font1);
-    font-size: 2em;
+    font-size: 2em;    
 }
 
-.price {
-    position: relative;
-    top: 10px;
-    margin-left: 20px;
+div > p.price {
+    display: flex;
+    padding-left: 17px;
+    align-items: center;
     text-decoration: line-through;
-    height: min-content;
 }
 
 button.add-to-cart {
@@ -100,11 +101,55 @@ button.add-to-cart {
     font-weight: 700;
 }
 
-button.add-to-cart:hover, button.add-to-cart:active {
+button.add-to-cart:hover,
+button.add-to-cart:active {
     background-color: var(--color4);
     cursor: pointer;
 }
 
 button.add-to-cart img {
     margin-right: 7px;
+}
+
+@media (min-width: 768px) {
+    main.card {
+        display: flex;
+        width: 600px;
+        height: 450px;
+    }
+
+    section.perfume, section img.product {
+        width: 300px;
+        height: 450px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    section.description {
+        padding: 30px;
+        height: 385px;
+    }
+
+    section.description,
+    section.description h1,
+    section.description p,
+    section.description div,
+    button.add-to-cart {
+        width: 235px;
+    }
+
+    section.description h1 {
+        margin-top: 20px;
+    }
+
+    section.description > p.text {
+        margin-top: 25px;
+    }
+
+    section.description > div {
+        margin-top: 30px;
+    }
+
+    button.add-to-cart {
+        margin-top: 25px;
+    }
 }
