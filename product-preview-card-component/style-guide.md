@@ -7,27 +7,6 @@ The designs were created to the following widths:
 - Mobile: 375px
 - Desktop: 1440px
 
-## Attribution
-
-### CSS
-.attribution {
-    position: absolute;
-    bottom: 0;
-
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
-### HTML
- <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="github.com/lucaslinyker">Lucas Linyker de Souza Andreotti</a>.
-</footer>
-
 ## Colors
 
 ### Primary

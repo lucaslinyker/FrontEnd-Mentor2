@@ -111,6 +111,19 @@ button.add-to-cart img {
     margin-right: 7px;
 }
 
+footer.attribution {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+
+    font-size: 11px;
+    text-align: center;
+}
+
+footer.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @media (min-width: 768px) {
     main.card {
         display: flex;
