@@ -7,6 +7,10 @@
     --cor: rgb(25, 162, 174);
 }
 
+* {
+    margin: 0px !important;
+}
+
 body {
     background-color: var(--cor);
     font: 400 16px var(--fonte);
@@ -17,26 +21,23 @@ body {
     overflow: hidden;
 }
 
-body>img.bola {
+body > img.bola {
     width: 1000px;
 }
 
-body>img#bolaCima {
+body > img#bolaCima {
     position: absolute;
     top: -500px;
     left: -300px;
 }
 
-body>img#bolaBaixo {
+body > img#bolaBaixo {
     position: absolute;
     bottom: -600px;
     right: -250px;
 }
 
-body>main.card {
-    /* display: grid; */
-    /* grid-template-rows: repeat(3, 1fr); */
-
+body > main.card {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,19 +45,28 @@ body>main.card {
 
     width: 350px;
     height: 375px;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: white;
 }
 
-main>header>img {
-    border-radius: 20px 20px 0px 0px;
+main.card > header {
+    width: 350px;
+    height: 140px;
 }
 
+main.card > header > img {
+    border-radius: 15px 15px 0px 0px;
+}
+/* -------------------------------------------------------------------------------- */
 main.card > main {
-    margin: auto 0px;
+    text-align: center;
+    height: 145px;
 }
 
-main>main>img {
+main.card > main > img {
     border-radius: 50%;
     outline: white solid 5px;
+
+    position: relative;
+    top: -33%;
 }
