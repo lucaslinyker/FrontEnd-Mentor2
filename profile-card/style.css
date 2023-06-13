@@ -84,13 +84,15 @@ main.information > h1, main.information > p {
 
 main.information > h1 {
     font-size: 16px;
+    margin-bottom: 10px !important;
 }
 
 main.information > h1 > strong {
     font-size: 18px;
     color: var(--cor1);
+    margin-right: 5px !important;
 }
 
-main > h1 > span {
+main.information > h1 > span {
     font-size: 16px;
 }
