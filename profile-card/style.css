@@ -5,9 +5,10 @@
 :root {
     --fonte: 'Kumbh Sans', sans-serif;
 
-    --cor0: rgb(25, 162, 174);
-    --cor1: rgb(45, 50, 72);
-    --cor2: rgb(106, 111, 129);
+    --cor0: #19a2ae;
+    --cor1: #2d3248;
+    --cor2: #6a6f81;
+    --cor3: #969696;
 }
 
 * {
@@ -16,7 +17,7 @@
 
 body {
     background-color: var(--cor0);
-    font: 400 16px var(--fonte);
+    font: 400 16px var(--fonte) !important;
     color: var(--cor2);
 
     width: 100%;
@@ -26,6 +27,7 @@ body {
 
 body > img.bola {
     width: 1000px;
+    z-index: 1;
 }
 
 body > img#bolaCima {
@@ -41,6 +43,7 @@ body > img#bolaBaixo {
 }
 
 body > main.card {
+    z-index: 2;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -61,15 +64,33 @@ main.card > header > img {
     border-radius: 15px 15px 0px 0px;
 }
 
-main.card > main {
+main.card > main.information {
     text-align: center;
     height: 145px;
 }
 
-main.card > main > img {
+main.card > main.information > img {
     border-radius: 50%;
     outline: white solid 5px;
 
     position: relative;
     top: -33%;
+}
+
+main.information > h1, main.information > p {
+    position: relative;
+    top: -30px;
+}
+
+main.information > h1 {
+    font-size: 16px;
+}
+
+main.information > h1 > strong {
+    font-size: 18px;
+    color: var(--cor1);
+}
+
+main > h1 > span {
+    font-size: 16px;
 }
