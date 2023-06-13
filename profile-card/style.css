@@ -11,13 +11,13 @@
     --cor3: #969696;
 }
 
-* {
-    margin: 0px !important;
+*, h1 {
+    margin: 0px;
 }
 
 body {
     background-color: var(--cor0);
-    font: 400 16px var(--fonte) !important;
+    font: 400 16px var(--fonte);
     color: var(--cor2);
 
     width: 100%;
@@ -84,13 +84,13 @@ main.information > h1, main.information > p {
 
 main.information > h1 {
     font-size: 16px;
-    margin-bottom: 10px !important;
+    margin-bottom: 10px;
 }
 
 main.information > h1 > strong {
     font-size: 18px;
     color: var(--cor1);
-    margin-right: 5px !important;
+    margin-right: 5px;
 }
 
 main.information > h1 > span {
@@ -104,10 +104,10 @@ footer {
 }
 
 table {
-    margin: 25px auto !important;
-    /* margin-top: 25px !important; */
+    margin: 25px auto;
+    /* margin-top: 25px; */
     width: 250px;
-    /* height: 35px !important; */
+    /* height: 35px; */
     border-collapse: collapse;
     text-align: center;
     /* border: 1px solid black; */
