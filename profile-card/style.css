@@ -18,6 +18,10 @@
 
 body {
     background-color: var(--cor0);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 40vw bottom 60vh, left 25vw top 50vh;
+
     font: 400 16px var(--fonte);
     color: var(--cor2);
 
@@ -26,25 +30,7 @@ body {
     overflow: hidden;
 }
 
-body > img.bola {
-    width: 1000px;
-    z-index: 1;
-}
-
-body > img#bolaCima {
-    position: absolute;
-    top: -500px;
-    left: -300px;
-}
-
-body > img#bolaBaixo {
-    position: absolute;
-    bottom: -600px;
-    right: -250px;
-}
-
 body > main.card {
-    z-index: 2;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -127,4 +113,10 @@ table th {
 table td {
     letter-spacing: 1px;
     font-size: 10px;
+}
+
+@media (min-width: 35em) {
+    body {
+        background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    }
 }
