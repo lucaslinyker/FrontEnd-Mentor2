@@ -1,37 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Order Summary</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main class="card">
+        <img src="./images/illustration-hero.svg" alt="Person listen to music" class="person-music">
 
-  Order Summary
+        <h1 class="title">Order Summary</h1>
+        <p class="description">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+        <section class="contract">
+            <img src="./images/icon-music.svg" alt="Icon music" class="contract__icon-music-note">
+            <h2 class="contract__plane-type">Annual Plan</h2>
+            <p class="contract__price">$59.99/year</p>
+            <a href="" class="contract__link-change">Change</a>
+        </section>
 
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <button class="button--proceed">Proceed to Payment</button>
+        <button class="button--cancel">Cancel Order</button>
+    </main>
 </body>
 </html>
