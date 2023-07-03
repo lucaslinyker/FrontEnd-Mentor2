@@ -5,7 +5,6 @@
 :root {
     --color0: #e0e8ff;
     --color1: #3829e0;
-    
     --color2: #ffffff;
     --color3: #f5f7ff;
     --color4: #7280a7;
@@ -33,10 +32,17 @@ body {
 }
 
 .card {
-    width: 90vw;
+    /* width: 90vw; */
     border-radius: 20px;
+    width: 330px;
+    height: 570px;
     background-color: var(--color2);
     text-align: center;
+}
+
+.card > * {
+    width: 280px;
+    margin: auto;
 }
 
 .person-music {
@@ -45,13 +51,66 @@ body {
 }
 
 .title {
-    margin: 20px 0;
+    margin: 20px auto;
     font-size: 1.5em;
     font-weight: 900;
     color: var(--color5);
 }
 
 .description {
-    margin: 30px 0;
-    
+    margin: 10px auto;
+}
+
+.contract {
+    margin: 20px auto;
+    width: 280px;
+    border-radius: 10px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+
+    background-color: var(--color3);
+}
+
+.contract__icon-music-note {
+    width: 50px;
+}
+
+.contract__plane {
+    margin-right: 20px;
+}
+
+.contract__plane-type {
+    font-size: 1em;
+    color: var(--color5);
+}
+
+.contract__link-change {
+    color: var(--color1);
+    font-weight: 900;
+}
+
+.button {
+    /* margin: auto;------------------------------------------------------------------- */
+    display: block;   
+    /* width: 280px; */
+    height: 50px;
+    border-width: 0;
+    border-radius: 10px;
+    color: var(--color0);
+    background-color: var(--color2);
+    font-family: 'Red Hat Display';
+    font-size: 1em;
+    font-weight: 900;
+    color: var(--color4);
+}
+
+.button--proceed {
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 255, 0.5);
+    background-color: var(--color1);
+    color: var(--color2);
 }
