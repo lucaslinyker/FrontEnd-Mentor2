@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 :root {
@@ -35,7 +33,6 @@ body {
     /* height: 570px; */
     border-radius: 20px;
     width: 88vw;
-    height: 85.45727136431785vh;    
     background-color: var(--color2);
     text-align: center;
 }
@@ -69,13 +66,12 @@ body {
     height: 80px;
     border-radius: 10px;
     padding: 10px;
+    background-color: var(--color3);
 
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 20px;
-
-    background-color: var(--color3);
 }
 
 .contract__icon-music-note {
