@@ -1,0 +1,16 @@
+:root {
+    --color0: #0f172f;
+    --color1: #bc7cfd;
+    --color2: #000000;
+    --color3: #0c1830;
+    --color4: #6f80a5;
+    --color5: #c0d1f6;
+}
+
+.person-music {
+    filter: hue-rotate(10deg) brightness(80%) saturate(0.6);
+}
+
+.proceed {
+    box-shadow: 0px 10px 10px 0px rgba(170, 100, 255, 0.5);
+}
