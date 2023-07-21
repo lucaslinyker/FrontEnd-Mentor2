@@ -7,6 +7,7 @@
     --color3: #f5f7ff;
     --color4: #7280a7;
     --color5: #1f2f56;
+    --color6: #766cf1;
 }
 
 * {
@@ -29,10 +30,9 @@ body {
 }
 
 .card {
-    /* width: 330px; */
-    /* height: 570px; */
+    height: 570px;
+    width: 330px;
     border-radius: 20px;
-    width: 88vw;
     background-color: var(--color2);
     text-align: center;
 }
@@ -75,41 +75,32 @@ body {
 }
 
 .contract__icon-music-note {
-    width: 50px;
+    width: 45px;
 }
 
 .contract__plane {
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 .contract__plane-type {
-    font-size: 1em;
+    font-size: 0.9em;
     color: var(--color5);
+}
+
+.contract__price {
+    font-size: 0.9em;
 }
 
 .contract__link-change {
     color: var(--color1);
     font-weight: 900;
+    font-size: 0.9em;
 }
 
-/* .button {
-    height: 50px;
-    border-width: 0;
-    border-radius: 10px;
-    background-color: var(--color2);
-    font-family: 'Red Hat Display';
-    font-size: 1em;
-    font-weight: 900;
-    color: var(--color4);
-    margin-bottom: 10px;
+.contract__link-change:hover {
+    color: var(--color6);
+    text-decoration: none;
 }
-
-.button--proceed {
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 255, 0.3);
-    background-color: var(--color1);
-    color: var(--color2);
-    margin-bottom: 10px;
-} */
 
 .proceed {
     height: 50px;
@@ -118,9 +109,14 @@ body {
     background-color: var(--color1);
     color: var(--color2);
     font-family: 'Red Hat Display';
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 900;
     box-shadow: 0px 10px 15px 0px rgba(0, 0, 255, 0.3);
+}
+
+.proceed:hover {
+    cursor: pointer;
+    background-color: var(--color6);
 }
 
 .cancel {
@@ -129,6 +125,11 @@ body {
     height: 50px;
     padding: 15px;
     font-weight: 900;
+    font-size: 0.9em;
     color: var(--color4);
     text-decoration: none;
+}
+
+.cancel:hover {
+    color: var(--color5);
 }
