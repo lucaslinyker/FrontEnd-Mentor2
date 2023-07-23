@@ -20,7 +20,10 @@ body {
     width: 100%;
     height: 100vh;
 
-    background-color: var(--color0);
+    background: var(--color0) url(../images/pattern-bg-mobile.svg) no-repeat;
+    background-size: 100vw 30vh;
+    background-position: top center;
+
     color: var(--color4);
     font: 500 16px 'Red Hat Display', sans-serif;
 

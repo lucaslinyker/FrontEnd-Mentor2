@@ -7,6 +7,12 @@
     --color5: #c0d1f6;
 }
 
+body {
+    background: var(--color0) url(../images/pattern-bg-mobile-dark.svg) no-repeat;
+    background-size: 100vw 30vh;
+    background-position: top center;
+}
+
 .person-music {
     filter: hue-rotate(10deg) brightness(80%) saturate(0.6);
 }
