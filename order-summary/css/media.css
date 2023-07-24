@@ -13,6 +13,11 @@ body {
     width: 355px;
 }
 
+.person-music {
+    width: 450px;
+    height: 220px;
+}
+
 .title {
     margin: 40px auto 20px auto;
     font-size: 2em;

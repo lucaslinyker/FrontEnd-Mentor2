@@ -5,7 +5,7 @@
     --color1: #3829e0;
     --color2: #ffffff;
     --color3: #f5f7ff;
-    --color4: #7280a7;
+    --color4: #5c6683;
     --color5: #1f2f56;
     --color6: #766cf1;
 }
@@ -42,11 +42,11 @@ body {
 
 .card > * {
     width: 280px;
-    margin: auto;
 }
 
 .person-music {
-    width: 100% !important;
+    width: 330px;
+    height: 161.32px;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -78,6 +78,7 @@ body {
 
 .contract__icon-music-note {
     width: 45px;
+    height: 45px;
     margin-right: 20px;
 }
 
@@ -93,6 +94,8 @@ body {
 .contract__price {
     margin-top: 5px;
     font-size: 0.9em;
+
+    color: var(--color4);
 }
 
 .contract__link-change {
