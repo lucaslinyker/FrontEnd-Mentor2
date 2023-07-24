@@ -72,16 +72,17 @@ body {
     background-color: var(--color3);
 
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
 .contract__icon-music-note {
     width: 45px;
+    margin-right: 20px;
 }
 
 .contract__plane {
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .contract__plane-type {
@@ -90,6 +91,7 @@ body {
 }
 
 .contract__price {
+    margin-top: 5px;
     font-size: 0.9em;
 }
 
