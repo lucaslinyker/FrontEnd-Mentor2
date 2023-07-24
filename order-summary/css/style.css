@@ -46,7 +46,7 @@ body {
 }
 
 .person-music {
-    width: 100%;
+    width: 100% !important;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -68,13 +68,12 @@ body {
     width: 280px;
     height: 80px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     background-color: var(--color3);
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    column-gap: 20px;
 }
 
 .contract__icon-music-note {
@@ -82,7 +81,7 @@ body {
 }
 
 .contract__plane {
-    margin-right: 25px;
+    margin-right: 30px;
 }
 
 .contract__plane-type {
