@@ -1,0 +1,42 @@
+body {
+    background: var(--color0) url(../images/pattern-bg-desktop.svg) no-repeat;
+    background-size: 100vw 50vh;
+    background-position: top center;
+}
+
+.card {
+    width: 450px;
+    height: 700px;
+}
+
+.card > * {
+    width: 355px;
+}
+
+.title {
+    margin: 40px auto 20px auto;
+    font-size: 2em;
+}
+
+.description {
+    margin: 20px auto;
+}
+
+.contract {
+    margin: 30px auto;
+    padding: 20px;
+    height: 100px;
+}
+
+.contract__plane {
+    margin-right: 90px;
+}
+
+.contract__plane-type, .contract__price, .contract__link-change,
+.proceed, .cancel {
+    font-size: 1em;
+}
+
+.cancel {
+    margin: 20px auto;
+}
